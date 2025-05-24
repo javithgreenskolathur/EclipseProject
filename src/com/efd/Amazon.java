@@ -23,6 +23,10 @@ public class Amazon extends Swiggy{
 		System.out.println("2345678");
 	}
 	
+	private void amazonProduct() {
+		System.out.println("amazonPhone");
+	}
+	
 	public static void main(String[] args) {
 		Amazon a = new Amazon();
 		a.send();
